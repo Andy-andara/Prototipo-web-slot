@@ -1,0 +1,295 @@
+* {
+	text-indent:0px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+p {text-align:justify}
+
+h1 {
+	font-size:1.2em;
+	color:blue;
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center;
+}
+
+h2 {
+	font.size:1.1em;
+	color:blue;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+}
+
+body {text-align:center;}
+
+#global {
+	width:800px;
+	margin:4px auto;
+}
+
+#curva-superior {
+	background-image:url(../images/curva-superior.gif);
+	background-repeat:no-repeat;
+	width:800px;
+	height:12px;
+	overflow:hidden;
+}
+
+#cabecera {
+	background-color:white;
+	border-left:black 1px solid;
+	border-right:black 1px solid;
+	height:85px;
+}
+
+#logotipo {
+	width:199px;
+	float:left;
+}
+
+#publicidad {
+	width:400px;
+	float:left;
+	margin-top:2px;
+	font-size:16px;
+}
+
+#logeo {
+	width:199px;
+	float:left;
+	padding-top:30px;
+	text-align:center;
+	font-size:16px;
+}
+
+#navegacion {
+	background-color:#F2F5A9;
+	border:black 1px solid;
+	height:20px;
+}
+
+#navegacion li {
+	float:left;
+	list-style:none;
+	margin:0px 20px 0px 20px;
+}
+
+#navegacion ul {margin-left:130px;}
+
+#contenido {
+	background-color:#CEF6CE;
+	border-left:black 1px solid;
+	border-right:black 1px solid;
+	padding:5px;
+}
+
+#contenido p {
+	text-align:center;
+	text-indent:15px;
+}
+
+#contenido form {
+	padding:15px;
+    border:2px solid #990000;
+    width:400px;
+    margin:auto;
+}
+
+#contenido form ol{
+    list-style:none;
+}
+#contenido form ol li{
+    padding-bottom:15px;
+	padding-left:15px;
+}
+#contenido form ol li label{
+    width:85px;
+    float:left;
+    text-align:left;
+}
+#contenido form input[type=text] {
+    border:1px solid #CCCCCC;
+}
+
+#contenido form input[type=password] {
+    border:1px solid #CCCCCC;
+}
+
+#contenido form input.btn {
+    padding:5px;
+	margin:0px 25px 0px 25px;
+	color:#FFFFFF;
+    background-color:#990000;
+    border:1px solid #000000;
+}
+
+#contenido form1 {
+	padding:15px;
+    border:2px solid #990000;
+    width:400px;
+    margin:auto;
+}
+
+#contenido form1 ol{
+    list-style:none;
+}
+#contenido form1 ol li{
+    padding-bottom:15px;
+	padding-left:15px;
+}
+#contenido form1 ol li label{
+    width:150px;
+    float:left;
+    text-align:left;
+}
+#contenido form1 input[type=text] {
+    border:1px solid #CCCCCC;
+}
+
+#contenido form1 input[type=password] {
+    border:1px solid #CCCCCC;
+}
+
+#contenido form1 input.btn {
+    padding:5px;
+	margin:0px 25px 0px 25px;
+	color:#FFFFFF;
+    background-color:#990000;
+    border:1px solid #000000;
+}
+
+/*#contenido form {
+	text-align:right;
+	margin:3px 160px 3px 3px;
+	background-position:bottom;
+	padding-bottom:10px;
+}
+
+#form li {
+	list-style:none;
+	margin:4px 6px 4px 6px;
+}*/
+
+#menu {
+	width:150px;
+	float:left;
+	text-align:left;
+	margin:3px 10px 3px 3px;
+	background-image:url(../images/menu-parte-inferior.gif);
+	background-position:bottom;
+	padding-bottom:10px;
+}
+
+#menu li {
+	list-style:none;
+	margin:4px 6px 4px 6px;
+}
+
+#menu h1 {
+	padding-top:10px;
+	text-decoration:none;
+	font-size:15px;
+	background-image:url(../images/menu-parte-superior.gif);
+}
+
+#pie {
+	background-color:white;
+	border-left:black 1px solid;
+	border-right:black 1px solid;
+	border-top:black 1px solid;
+	height:65px;
+}
+
+#pie li {
+	list-style:none;
+	font-size:12px;
+}
+
+#pieuno {
+	float:left;
+	width:150px;
+}
+
+#piedos {
+	float:left;
+	width:498px;
+}
+
+#pietres {float:left; width:150px;}
+
+#curva-inferior {
+background-image:url(../images/curva-inferior.gif);
+background-repeat:no-repeat;
+width:800px;
+height:12px;
+overflow:hidden;
+}
+
+a {
+	color:#FF0040;
+	text-decoration:none;
+	display:block;
+}
+
+a:link {}
+
+a:visited {}
+
+a:hover {
+	color:#FE2E2E;
+	text-decoration:underline;
+	background-color:#E6E6E6;
+}
+
+a:active {}
+
+#pie a {
+	color:blue;
+	text-decoration:none;
+	display: block;
+}
+
+#pie a:link {}
+
+#pie a:visited {}
+
+#pie a:hover {
+	color:black;
+	text-decoration:underline;
+	background-color:white;
+}
+
+#pie a:active {color:black}
+
+#logotipo a {}
+
+#logotipo a:link {}
+
+#logotipo a:visited {}
+
+#logotipo a:hover {background-color: white }
+
+#logotipo a:active {}
+
+#publicidad a {}
+
+#publicidad a:link {}
+
+#publicidad a:visited {}
+
+#publicidad a:hover {background-color: white }
+
+#publicidad a:active {}
+
+#inicio a {}
+
+#inicio a:link {}
+
+#inicio a:visited {}
+
+#inicio a:hover {background-color: white }
+
+#inicio a:active {}
